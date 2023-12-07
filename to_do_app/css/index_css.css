@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: "Century Gothic";
+}
+
+.headertodo {
+    background-color:#c9ac8f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.container-todo-list {
+    background-color: #f0ebe6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    max-width: 360px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    border-radius: 22px;
+    border-style: solid;
+    border-color: #c9ac8f;
+    font-size: 20px;
+}
+
+.container-why-todo-lists {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.container-why-todo-lists a {
+    color: #a88460;
+}
+
+.container-why-todo-lists a::after {
+    color: #332211;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #c9ac8f;
+    height: 100px;
+}
