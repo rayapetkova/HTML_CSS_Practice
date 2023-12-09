@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(210, 210, 255);
+    margin: 0;
+    font-family: "Century Gothic"
+}
+
+header {
+    background-color: rgb(150, 150, 239);
+    margin: 0;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+
+
+/* header h1, header nav {
+    display: inline;
+} */
+
+header nav a:link {
+    text-decoration: none;
+    color:rgb(93, 89, 84)
+}
+
+header nav a:visited {
+    color:rgb(93, 91, 115);
+}
+
+header nav a:hover {
+    color: rgb(16, 11, 113);
+}
+
+/* footer {
+    background-color: rgb(150, 150, 239);
+    margin-top: 486px;
+    padding: 55px;
+} */
+
