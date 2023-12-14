@@ -115,6 +115,18 @@ form p input {
     border-radius: 6px;
 }
 
+form .sign-up-new-account {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+form p span {
+    font-size: 15px;
+}
+
+form p span a:hover {
+    color: rgb(127, 127, 181);
+}
 
 
 
