@@ -99,20 +99,10 @@ form p label {
     margin-right: -40px;
 }
 
-form p .first-input {
-    padding-right: 38px;
-    padding-top: 4px;
-    padding-bottom: 3px;
-}
-
-form p .second-input {
-    padding-right: 41px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
 form p input {
     border-radius: 6px;
+    width: 180px;
+    height: 20px;
 }
 
 form .sign-up-new-account {
