@@ -1,11 +1,11 @@
 body {
-    background-color:rgb(210, 210, 255);
+    background-color:#cfd0db;
     margin: 0;
     font-family: "Century Gothic"
 }
 
 header {
-    background-color: rgb(150, 150, 239);
+    background-color: #004080;
     margin: 0;
     padding-top: 23px;
     padding-bottom: 23px;
@@ -33,19 +33,19 @@ header nav svg {
 
 header nav a:link {
     text-decoration: none;
-    color:rgb(93, 89, 84);
+    color:rgb(178, 172, 165);
 }
 
 header nav a:visited {
-    color:rgb(93, 91, 115);
+    color:rgb(171, 158, 242);
 }
 
 header nav a:hover {
-    color: rgb(16, 11, 113);
+    color: rgb(121, 120, 146);
 }
 
 form {
-    background-color: rgb(198, 198, 249);
+    background-color: rgb(219, 214, 227);
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -55,7 +55,7 @@ form {
     text-align: center;
     border-style: solid;
     border-radius: 20px;
-    border-color: rgb(150, 150, 239);
+    border-color: #004080;
     border-width: 2px;
 }
 
@@ -65,14 +65,14 @@ form button {
     padding-bottom: 5px;
     border-style: solid;
     border-radius: 20px;
-    border-color: rgb(150, 150, 239);
-    background-color: rgb(149, 149, 209);
+    border-color: #031425;
+    background-color: #004080;
     color: white;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(177, 177, 223);
+    background-color: #506c89;
 }
 
 form .login-title {
@@ -115,14 +115,14 @@ form p span {
 }
 
 form p span a:hover {
-    color: rgb(127, 127, 181);
+    color: #1e6fbb;
 }
 
 
 
 
 footer {
-    background-color: rgb(150, 150, 239);
+    background-color: #004080;
     margin-top: 86px;
     padding: 55px;
 }
