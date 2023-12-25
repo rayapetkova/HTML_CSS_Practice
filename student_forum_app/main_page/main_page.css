@@ -28,7 +28,7 @@ header nav img {
 
 aside {
     display: flex;
-    background-color: #6185aa;
+    background-color: #00408090;
     flex-direction: column;
     width: 25%;
     height: 100%;
@@ -37,4 +37,13 @@ aside {
     align-items: center;
     justify-content: center;
     height: 656px;
+    font-size: 26px;
+}
+
+aside a:visited {
+    color: rgb(36, 35, 35);
+}
+
+aside a:hover {
+    color: #004080;
 }
