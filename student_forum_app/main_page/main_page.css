@@ -26,7 +26,11 @@ header nav img {
     margin-top: -10px;
 }
 
-aside {
+.side-bar-main-info {
+    display: flex;
+}
+
+.side-bar-main-info aside {
     display: flex;
     background-color: #00408090;
     flex-direction: column;
@@ -40,10 +44,19 @@ aside {
     font-size: 26px;
 }
 
-aside a:visited {
+.side-bar-main-info aside a:visited {
     color: rgb(36, 35, 35);
 }
 
-aside a:hover {
+.side-bar-main-info aside a:hover {
     color: #004080;
+}
+
+.side-bar-main-info main {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 70%;
+    flex-wrap: wrap;
+    align-content: center;
 }
