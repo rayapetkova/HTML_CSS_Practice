@@ -1,5 +1,5 @@
 body {
-    background-color:#cfd0db;
+    background-color:rgba(207, 208, 219, 0.526);
     margin: 0;
     font-family: "Century Gothic";
 }
@@ -55,8 +55,27 @@ header nav img {
 .side-bar-main-info main {
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: #cdd9e6;
     width: 70%;
     flex-wrap: wrap;
     align-content: center;
+}
+
+.side-bar-main-info main article {
+    background-color: #67acf191;
+    margin-top: 30px;
+    width: 75%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #004080;
+}
+
+.side-bar-main-info main article h6 {
+    font-size: 28px;
+    margin: 10px 10px;
+}
+
+.side-bar-main-info main article p {
+    margin: 10px 10px;
 }
