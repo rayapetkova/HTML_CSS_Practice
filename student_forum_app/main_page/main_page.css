@@ -71,6 +71,11 @@ header nav img {
     border-color: #004080;
 }
 
+.side-bar-main-info main article:hover {
+    background-color: #9bc5ef91;
+    cursor: pointer;
+}
+
 .side-bar-main-info main article h6 {
     font-size: 28px;
     margin: 10px 10px;
@@ -114,3 +119,15 @@ header nav img {
     border-radius: 5px;
     width: 60%;
 }
+
+.side-bar-main-info .social-media-links {
+    display: flex;
+    flex-direction: column;
+    width: 6%;
+    background-color: #e2e9ef;
+}
+
+.side-bar-main-info .social-media-links img {
+    width: 40px;
+}
+
