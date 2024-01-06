@@ -1,0 +1,125 @@
+body {
+    background-color:rgba(207, 208, 219, 0.526);
+    margin: 0;
+    font-family: "Century Gothic";
+}
+
+header {
+    background-color: #004080;
+    margin: 0;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.title-name {
+    font-weight: bold;
+    font-size: 34px;
+    padding-left: 20px;
+}
+
+header nav img {
+    width: 60px;
+    float: left;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.side-bar-main-info {
+    display: flex;
+}
+
+.side-bar-main-info aside {
+    display: flex;
+    background-color: #00408090;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 656px;
+    font-size: 26px;
+}
+
+.side-bar-main-info aside a:visited {
+    color: rgb(36, 35, 35);
+}
+
+.side-bar-main-info aside a:hover {
+    color: #004080;
+}
+
+.side-bar-main-info main {
+    display: flex;
+    flex-direction: column;
+    background-color: #cdd9e6;
+    width: 70%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.side-bar-main-info main article {
+    background-color: #67acf191;
+    margin-top: 30px;
+    width: 75%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #004080;
+}
+
+.side-bar-main-info main article:hover {
+    background-color: #9bc5ef91;
+    cursor: pointer;
+}
+
+.side-bar-main-info main article h6 {
+    font-size: 28px;
+    margin: 10px 10px;
+}
+
+.side-bar-main-info main article p {
+    margin: 10px 10px;
+}
+
+
+.side-bar-main-info main .title-and-plus_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-bar-main-info main h3 {
+    font-size: 30px;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: #013162;
+}
+
+.side-bar-main-info main h6 {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: #013162;
+}
+
+
+.side-bar-main-info main img {
+    width: 40px;
+    margin-top: 45px;
+}
+
+
+.side-bar-main-info .social-media-links {
+    display: flex;
+    flex-direction: column;
+    width: 6%;
+    background-color: #e2e9ef;
+}
+
+.side-bar-main-info .social-media-links img {
+    width: 40px;
+}
+
