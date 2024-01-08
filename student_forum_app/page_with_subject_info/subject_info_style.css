@@ -4,6 +4,9 @@ body {
     font-family: "Century Gothic";
 }
 
+
+
+
 header {
     background-color: #004080;
     margin: 0;
@@ -12,6 +15,9 @@ header {
     text-align: center;
     font-size: 20px;
 }
+
+
+
 
 .title-name {
     font-weight: bold;
@@ -25,6 +31,9 @@ header nav img {
     margin-left: 80px;
     margin-top: -10px;
 }
+
+
+
 
 .side-bar-main-info {
     display: flex;
@@ -51,6 +60,10 @@ header nav img {
 .side-bar-main-info aside a:hover {
     color: #004080;
 }
+
+
+
+
 
 .side-bar-main-info main {
     display: flex;
@@ -106,10 +119,14 @@ header nav img {
 }
 
 
+
+
 .side-bar-main-info main img {
     width: 40px;
     margin-top: 45px;
 }
+
+
 
 
 .side-bar-main-info .social-media-links {
